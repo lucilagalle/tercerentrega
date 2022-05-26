@@ -1,0 +1,19 @@
+@import "_variables";
+.footer{
+    background-color: $colorfondo;
+    font-family: $fuenteprincipal;}
+    h5{
+        color: $colorprimario;}
+    ul li a{
+        text-decoration: none;
+        color: $colorprimario;}
+    a{
+        color: $colorprimario;}
+    ul li a:hover{
+        color: $colorhover;}
+    .imgfoot{
+        width: 50px;
+        border-radius: 3px;}
+    .copy{
+        color: $colorprimario;
+    }

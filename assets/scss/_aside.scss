@@ -1,0 +1,27 @@
+@import "_variables";
+@import "_tarjeta";
+@mixin tarjetageneral ($ancho,$alto,$bg-color,$radio){
+    width:$ancho;
+    height:$alto;
+    background-color:$bg-color;
+    border-radius:$radio;
+
+}
+aside{
+    .titulo{
+    font-family: $fuenteprincipal;
+    color: $colorprimario;}
+    .titulo2{
+    @extend .titulo;}
+    .tarjeta2{
+    @include tarjetageneral(650px,750px , #fff, 10px);
+    margin-left: 15px;
+    font-family: $fuenteprincipal;
+    box-shadow: 5px 5px 15px 5px #dbdbdb;
+    color: $colorprimario;}
+    .video{
+        border-radius: 5px;}
+    .texto{
+        padding: 15px;
+    }
+    }

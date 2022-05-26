@@ -1,0 +1,365 @@
+.header1 .cuotas, .header2 .cuotas, .header3 .cuotas, .header4 .cuotas, .header5 .cuotas {
+  background-color: #d4af9d;
+  font-family: Poppins;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header1 .navbar, .header2 .navbar, .header3 .navbar, .header4 .navbar, .header5 .navbar {
+  font-family: Poppins;
+  font-size: 25px;
+}
+
+.header1 .navbar a, .header2 .navbar a, .header3 .navbar a, .header4 .navbar a, .header5 .navbar a {
+  color: #d4af9d;
+}
+
+.header1 .navbar a:hover, .header2 .navbar a:hover, .header3 .navbar a:hover, .header4 .navbar a:hover, .header5 .navbar a:hover {
+  color: #795252;
+}
+
+.header1 .navbar .logo, .header2 .navbar .logo, .header3 .navbar .logo, .header4 .navbar .logo, .header5 .navbar .logo {
+  width: 70px;
+}
+
+.header2, .header3, .header4 {
+  background-image: url(../img/ea.jpg);
+  height: 650px;
+}
+
+.header3 {
+  background-image: url(../img/kit3-min.jpg);
+  height: 650px;
+}
+
+.header4 {
+  background-image: url(../img/sale1-min.jpg);
+}
+
+.tarjeta {
+  width: 300px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 25px;
+  box-shadow: 5px 5px 15px 5px #dbdbdb;
+}
+
+.btntarjeta {
+  font-family: Poppins;
+  margin-left: 110px;
+  border-style: none;
+  border-radius: 5px;
+  color: #795252;
+}
+
+.btntarjeta:hover {
+  background-color: #d4af9d;
+}
+
+.titulotarjeta {
+  color: #795252;
+  font-size: 20px;
+  font-family: Poppins;
+}
+
+.imgtarjeta {
+  width: 200px;
+  margin-left: 50px;
+}
+
+.button {
+  --offset: 10px;
+  --border-size: 2px;
+  display: block;
+  position: relative;
+  padding: 1em 2em;
+  margin-left: 60px;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #795252;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  outline: none;
+  cursor: pointer;
+  font-family: Poppins;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+  transition: background .8s ease;
+}
+
+.button:hover {
+  background: rgba(100, 0, 0, 0.03);
+}
+
+.button__horizontal, .button__vertical {
+  position: absolute;
+  top: var(--horizontal-offset, 0);
+  right: var(--vertical-offset, 0);
+  bottom: var(--horizontal-offset, 0);
+  left: var(--vertical-offset, 0);
+  transition: transform .8s ease;
+  will-change: transform;
+}
+
+.button__horizontal::before, .button__vertical::before {
+  content: '';
+  position: absolute;
+  border: inherit;
+}
+
+.button__horizontal {
+  --vertical-offset: calc(var(--offset) * -1);
+  border-top: var(--border-size) solid currentcolor;
+  border-bottom: var(--border-size) solid currentcolor;
+}
+
+.button__horizontal::before {
+  top: calc(var(--vertical-offset) - var(--border-size));
+  bottom: calc(var(--vertical-offset) - var(--border-size));
+  left: calc(var(--vertical-offset) * -1);
+  right: calc(var(--vertical-offset) * -1);
+}
+
+.button:hover .button__horizontal {
+  transform: scaleX(0);
+}
+
+.button__vertical {
+  --horizontal-offset: calc(var(--offset) * -1);
+  border-left: var(--border-size) solid currentcolor;
+  border-right: var(--border-size) solid currentcolor;
+}
+
+.button__vertical::before {
+  top: calc(var(--horizontal-offset) * -1);
+  bottom: calc(var(--horizontal-offset) * -1);
+  left: calc(var(--horizontal-offset) - var(--border-size));
+  right: calc(var(--horizontal-offset) - var(--border-size));
+}
+
+.button:hover .button__vertical {
+  transform: scaleY(0);
+}
+
+aside .titulo, aside .titulo2 {
+  font-family: Poppins;
+  color: #795252;
+}
+
+aside .tarjeta2 {
+  width: 650px;
+  height: 750px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 15px;
+  font-family: Poppins;
+  box-shadow: 5px 5px 15px 5px #dbdbdb;
+  color: #795252;
+}
+
+aside .video {
+  border-radius: 5px;
+}
+
+aside .texto {
+  padding: 15px;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 25px;
+  box-shadow: 5px 5px 15px 5px #dbdbdb;
+}
+
+.btntarjeta {
+  font-family: Poppins;
+  margin-left: 110px;
+  border-style: none;
+  border-radius: 5px;
+  color: #795252;
+}
+
+.btntarjeta:hover {
+  background-color: #d4af9d;
+}
+
+.titulotarjeta {
+  color: #795252;
+  font-size: 20px;
+  font-family: Poppins;
+}
+
+.imgtarjeta {
+  width: 200px;
+  margin-left: 50px;
+}
+
+.button {
+  --offset: 10px;
+  --border-size: 2px;
+  display: block;
+  position: relative;
+  padding: 1em 2em;
+  margin-left: 60px;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #795252;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  outline: none;
+  cursor: pointer;
+  font-family: Poppins;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+  transition: background .8s ease;
+}
+
+.button:hover {
+  background: rgba(100, 0, 0, 0.03);
+}
+
+.button__horizontal, .button__vertical {
+  position: absolute;
+  top: var(--horizontal-offset, 0);
+  right: var(--vertical-offset, 0);
+  bottom: var(--horizontal-offset, 0);
+  left: var(--vertical-offset, 0);
+  transition: transform .8s ease;
+  will-change: transform;
+}
+
+.button__horizontal::before, .button__vertical::before {
+  content: '';
+  position: absolute;
+  border: inherit;
+}
+
+.button__horizontal {
+  --vertical-offset: calc(var(--offset) * -1);
+  border-top: var(--border-size) solid currentcolor;
+  border-bottom: var(--border-size) solid currentcolor;
+}
+
+.button__horizontal::before {
+  top: calc(var(--vertical-offset) - var(--border-size));
+  bottom: calc(var(--vertical-offset) - var(--border-size));
+  left: calc(var(--vertical-offset) * -1);
+  right: calc(var(--vertical-offset) * -1);
+}
+
+.button:hover .button__horizontal {
+  transform: scaleX(0);
+}
+
+.button__vertical {
+  --horizontal-offset: calc(var(--offset) * -1);
+  border-left: var(--border-size) solid currentcolor;
+  border-right: var(--border-size) solid currentcolor;
+}
+
+.button__vertical::before {
+  top: calc(var(--horizontal-offset) * -1);
+  bottom: calc(var(--horizontal-offset) * -1);
+  left: calc(var(--horizontal-offset) - var(--border-size));
+  right: calc(var(--horizontal-offset) - var(--border-size));
+}
+
+.button:hover .button__vertical {
+  transform: scaleY(0);
+}
+
+.footer {
+  background-color: #d4af9d;
+  font-family: Poppins;
+}
+
+h5 {
+  color: #795252;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #795252;
+}
+
+a {
+  color: #795252;
+}
+
+ul li a:hover {
+  color: #76716e;
+}
+
+.imgfoot {
+  width: 50px;
+  border-radius: 3px;
+}
+
+.copy {
+  color: #795252;
+}
+
+.mainindex .carousel {
+  width: 90%;
+  display: flex;
+}
+
+.mainindex .img {
+  width: 100%;
+  height: auto;
+}
+
+.mainform {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/laq-min.jpg);
+}
+
+.formulario {
+  width: 700px;
+  height: 700px;
+  border-radius: 10px;
+  color: #d4af9d;
+}
+
+.formulario .tituloform {
+  font-family: Poppins;
+  color: #795252;
+  margin-top: 35px;
+}
+
+.formulario .buttonform {
+  font-family: Poppins;
+  color: #76716e;
+  border-style: none;
+  height: 40px;
+  width: 150px;
+  margin-left: 275px;
+  margin-top: 25px;
+}
+
+.formulario .buttonform:hover {
+  background-color: #d4af9d;
+}
+
+.formulario .form, .formulario .form1, .formulario .form2, .formulario .form3 {
+  margin-top: 55px;
+  margin-left: 20%;
+  width: 400px;
+}
+
+.formulario .form1, .formulario .form2, .formulario .form3 {
+  margin-top: 35px;
+}
+
+.formulario #exampleFormControlInput1, .formulario #exampleFormControlTextarea1 {
+  background-color: #dad2cd;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

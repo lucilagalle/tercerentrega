@@ -1,0 +1,36 @@
+@import "_variables";
+.header1{
+    .cuotas{
+    background-color: $colorfondo;
+    font-family: $fuenteprincipal;
+    color: #fff;
+    font-size: 20px;}
+    .navbar{
+    font-family: $fuenteprincipal;
+    font-size: 25px;
+    a{
+    color: $colorfondo;}
+    a:hover{
+        color: $colorprimario;}
+    .logo{
+    width: 70px;}
+}
+}
+.header2{
+    @extend .header1;
+    background-image: url(../img/ea.jpg);
+    height: 650px;
+}
+.header3{
+    @extend .header2;
+    background-image: url(../img/kit3-min.jpg);
+    height: 650px;
+}
+.header4{
+    @extend .header2;
+    background-image: url(../img/sale1-min.jpg);
+}
+.header5{
+    @extend .header1;
+}
+
